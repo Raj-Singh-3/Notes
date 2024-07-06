@@ -1,0 +1,251 @@
+/* .box {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+.search-bar {
+  width:50%;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.search{
+  align-items: center;
+  text-align: center;
+}
+.search-bar:focus {
+  border-color: #007bff;
+}
+
+.pdf-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.username {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.username:hover {
+  color: darkblue;
+}
+
+.profile-icon {
+  cursor: pointer;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.profile-icon:hover {
+  color: lightgray;
+}
+
+.text-section {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 120px;
+}
+
+.description {
+  color: white;
+  margin-left: 120px;
+}
+
+.visitors-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.visitors {
+  margin-bottom: 5px;
+  margin-right: 80px;
+  color: white;
+}
+
+.uploaded {
+  color: white;
+}
+
+
+.star-icon {
+  color: gold;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.download-icon,
+.eye-icon {
+  cursor: pointer;
+  color: white;
+  margin-top: 2.3vh;
+  margin-left: 85px;
+}
+
+.download-icon:hover,
+.eye-icon:hover,
+.link-icon:hover {
+  color: lightgray;
+}
+
+ */
+ .box {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: 20px auto;
+  height: calc(100% - 40px); /* Adjust height to fit within parent */
+  overflow-y: auto; /* Enable scrolling within the box */
+}
+
+.search-bar {
+  width: 50%;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search {
+  align-items: center;
+  text-align: center;
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+}
+
+.pdf-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.username {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.username:hover {
+  color: darkblue;
+}
+
+.profile-icon {
+  cursor: pointer;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.profile-icon:hover {
+  color: lightgray;
+}
+
+.text-section {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 120px;
+}
+
+.description {
+  color: white;
+  margin-left: 120px;
+}
+
+.visitors-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.visitors {
+  margin-bottom: 5px;
+  margin-right: 80px;
+  color: white;
+}
+
+.uploaded {
+  color: white;
+}
+
+.star-icon {
+  color: gold;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.download-icon,
+.eye-icon {
+  cursor: pointer;
+  color: white;
+  margin-top: 2.3vh;
+  margin-left: 85px;
+}
+
+.download-icon:hover,
+.eye-icon:hover,
+.link-icon:hover {
+  color: lightgray;
+}
